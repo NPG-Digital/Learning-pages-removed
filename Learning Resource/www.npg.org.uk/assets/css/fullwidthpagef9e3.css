@@ -1,0 +1,1005 @@
+/* FONT STYLES */
+@media (min-width:1px) and (max-width:480px) {
+div#main h1 {font-size: 2rem!important; line-height: 1.25em;}
+div#main h2 {font-size: 1.625rem!important; line-height: 1.15384615em; margin: 1em 0 0.2em!important;}
+div#main div.row h2 {margin: 0em 0 0.2em!important;}
+div#main div.row h3 {margin: 0em 0 0.2em!important;}
+p.teaser-intro {font-size:1.625rem!important; line-height: 1.25em; margin-bottom: 20px; margin-top: 40px; }
+div#main h3 {font-size: 1.375rem!important; line-height: 1.13636364em;}
+}
+
+@media (min-width:481px) and (max-width:1024px) { 
+div#main h1 {font-size: 2.5rem!important; line-height: 1.125em;}
+div#main h1.bannertitle {font-size: 2.5rem!important; line-height: 1.05em;}
+div#main h2 {font-size: 2rem!important; line-height: 1.25em; margin: 1em 0 0.2em!important;}
+div#twoColSide div#right div.sideHome h2{font-size: 1.25rem!important; margin: 0em 0 0.2em!important;}
+div#main div.row h2 {margin: 0em 0 0.2em!important;}
+div#main div.row h3 {margin: 0em 0 0.2em!important;}
+p.teaser-intro {font-size:2rem!important; line-height: 1.25em; margin-bottom: 20px; margin-top: 40px;}
+div#main h3 {font-size: 1.5rem!important; line-height: 1.25em;}
+}
+
+@media (min-width:1025px) {
+div#main h1, div.sideHome h1 {font-size: 3rem!important; line-height: 1.05em;}
+div#main h1.bannertitle {font-size: 3rem!important; line-height: 1.05em;}
+div#main h2 {font-size: 2.25rem!important; line-height: 1.25em; margin: 1em 0 0.2em!important;}
+div#twoColSide div#right div.sideHome h2 {font-size: 1.5rem!important; margin: 0em 0 0.2em!important;}
+div#main div.row h2 {margin: 0em 0 0.2em!important;}
+div#main div.row h3 {margin: 0em 0 0.2em!important;}
+p.teaser-intro {font-size:2.25rem!important; line-height: 1.25em; margin-bottom: 20px; margin-top: 40px;}
+div#main h3, div.sideHome h3 {font-size: 1.75rem!important; line-height: 1.25em;}
+}
+
+.contentPage p, div.sideHome p, div.smallPortrait p, div.mediumPortrait p, div.imgWrapper p, .themeNavigationTop, .themeNavigationBottom, div.themeContent, div.contentOneColumn, div.outro-text, div#searchForExtended form input.text, div#searchFor form select, div#events div#left p, td, label, .contentPage ul, .contentPage ol, div.sideHome ul {font-size: 1.125rem;}
+
+div#main .section-title h2, div#main .section-title h3 {font-size: 1.125rem !important; margin: 0 !important; padding-bottom: 10px;}
+
+
+/* FONT STYLES END */
+
+/* IMAGE SLIDER STYLE */
+@media (max-width: 768px) {
+div.contentFull, div.contentColumn, div.contentOneColumn, div.contentColumnImage {margin-left: 0px!important;}
+}
+.slick-wrapper.slick-initialized.slick-slider ul.slick-dots {margin-left: 0px!important;}
+div.contentFull, div.contentColumn, div.contentOneColumn, div.contentColumnImage { display: block!important; float: none!important; /*margin-left: 20px; margin-right: 20px;EDF*/}
+/* IMAGE SLIDER STYLE END*/
+
+/* MediumPortrait*/
+ div.mediumPortrait.portraitRight {
+    padding-left: 20px;
+	clear: right;
+}
+
+ div.mediumPortrait.portraitLeft {
+    padding-right: 20px;
+	clear: left;
+}
+/* End MediumPortrait*/
+
+/*Events page Medium portrait and price tab*/
+.Exhibitions_Events div.contentOneColumn div#eventDetails div.imageOptions{width: 264px; margin-right: 5px;}
+/*End Events page Medium portrait and price tab*/
+
+/* BANNER TITLE*/
+#featureSections {position: relative!important;} 
+@media (min-width: 769px) {
+div#featureSections h1.bannertitle.desktop-only {background-image: none; width: 100%; background: linear-gradient(to top, black 0%, rgba(0, 0, 0, 0.738) 19%, rgba(0, 0, 0, 0.541) 34%, rgba(0, 0, 0, 0.382) 47%, rgba(0, 0, 0, 0.278) 56.5%, rgba(0, 0, 0, 0.194) 65%, rgba(0, 0, 0, 0.126) 73%, rgba(0, 0, 0, 0.075) 80.2%, rgba(0, 0, 0, 0.042) 86.1%, rgba(0, 0, 0, 0.021) 91%, rgba(0, 0, 0, 0.008) 95.2%, rgba(0, 0, 0, 0.002) 98.2%, transparent 100%); margin-top: -130px !important; height: 105px; position: relative; display: block; line-height: 3em; text-shadow: 0 0 5px rgba(0,0,0,.5); }
+}
+ h1.bannertitle {position: absolute; bottom: 15px; left: 0; color: #fff; padding: 20px;}
+/* BANNER TITLE END*/
+
+/* Buy print link*/
+.buylink::before {background: transparent url("../../assets/images/layout/print_white.svg") no-repeat scroll left center / 100% 100%; content: " "; display: inline-block; height: 25px; left: 0; line-height: 10px; margin: 0 4px -6px 4px; position: relative; top: 0; width: 25px;}
+.buylink:focus::before, .buylink:hover::before {background: transparent url("../../assets/images/layout/print_white.svg") no-repeat scroll left center / 100% 100%; content: " "; display: inline-block; height: 25px; left: 0; line-height: 10px; margin: 0 4px -6px 4px; position: relative; top: 0; width: 25px;}
+.buylink {border: 6px solid #006ed2; border-radius: 0; color: #fff; display: inline-block; margin-top: 7px; padding: 4px 9px; text-align: center; text-decoration: none; vertical-align: middle; font-size: 1.125rem; background: #006ed2 none repeat scroll 0 0;}
+.buylink:hover, .buylink:focus {background: rgba(0, 0, 0, 0) linear-gradient(to bottom, #000, #000) repeat scroll 0 0; border: 6px solid #000; color: #ffffff; text-decoration: none;}
+.buylink:active {background: rgba(0, 0, 0, 0) linear-gradient(to bottom, #000, #000) repeat scroll 0 0;}
+/* End Buy print link*/
+
+/* GREY INTRO BOX*/
+.greyintro {background-color: #f2f2f2; margin-bottom: 40px; margin-top: 40px; padding: 20px;}
+/* GREY INTRO END*/
+
+/* GREY INTRO BOX FOR H2*/
+.greyintro-large {background-color: #f2f2f2; margin-bottom: 40px; margin-top: 40px; padding: 0.5px 20px 20px;}
+/* GREY INTRO END*/
+
+/* PRICE CIRCLES*/
+.circleprice  {background-color: black; border-radius: 50%; color: white; font-size: 2rem; height: 100px; line-height: 60px; position: relative; text-align: center; width: 100px; padding: 20px; margin-right:10px;}
+/* PRICE CIRCLES END*/
+
+/* PAGE STRUCTURE */
+/*div.contentFull, div.contentColumn, div.contentOneColumn, div.contentColumnImage {margin-right: 20px;}EDF*/
+/* PAGE STRUCTURE END */
+
+
+.Standard-Content-full-width div#wrapper div#main div#mainContent div#oneColSide div#left h1.normalh1 {margin-top:20px;}
+
+@media (min-width: 768px) {
+div#mainContent {max-width: 1200px!important; width: inherit!important;}
+div#featureSections {margin-top: -18px;}
+}
+/* Ipad mini portrait */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait)
+and (-webkit-min-device-pixel-ratio: 1)  { div#featureSections {margin-top: 0px;}}
+
+/* LOGO MENU BAR OVERRIDE MINI PORTRAIT */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait)
+and (-webkit-min-device-pixel-ratio: 1)   { 
+
+div#featureSections h1, div#featureSections h1.imgReplacement { margin: 15px 0 5px 0 !important;}
+.portrait-extended-page ul.pageTabs li:last-child{ background-color:#000!important;}
+.portrait-page #events .imageOptions{ width:50%!important;}
+.portrait-extended-page .imageOptions{margin-right: 30%!important;}
+.portrait-page ul.pageTabs li.active{background-color:#000!important;}
+.portrait-extended-page div#twoColSide div#events div#left div.contentPage div.contentColumn div.imageOptions ul li a { width: 60%!important; float: right!important;}
+.Dynamic-Content #events ul#searchSections li.active, .Search_Results #events ul#searchSections li.active, .EventsSearch_Results #events ul#searchSections li.active, .portrait-page ul.pageTabs li.active, .portrait-conservation-page ul.pageTabs li.active, .portrait-extended-page ul.pageTabs li.active, .person-extended-page ul.pageTabs li.active { border-color: 
+#000; background-color: #000!important; color:#fff; }
+.Dynamic-Content #events ul#searchSections li, .Search_Results #events ul#searchSections li, .EventsSearch_Results #events ul#searchSections li, .portrait-page ul.pageTabs li, .portrait-conservation-page ul.pageTabs li, .portrait-extended-page ul.pageTabs li, .person-extended-page ul.pageTabs li {background-color: #fff!important; }
+.Dynamic-Content ul#searchSections li a, .Search_Results ul#searchSections li a, .EventsSearch_Results ul#searchSections li a, .portrait-page ul#searchSections li a, .portrait-conservation-page ul#searchSections li a, .portrait-extended-page ul#searchSections li a, .person-extended-page ul#searchSections li a{text-decoration:none;}
+
+}
+
+/* LOGO MENU BAR OVERRIDE LANDSCAPE 
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape)
+and (-webkit-min-device-pixel-ratio: 1)  {div#featureSections h1, div#featureSections h1.imgReplacement {margin: 15px 0 5px 0 !important;}
+}*/
+
+/* LOGO MENU BAR OVERRIDE Iphone*/
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px) { 
+#inner-header {height: 83px!important;}
+}
+
+/* ACCORDION COLLECTIONS*/
+div#featureSections {float: none!important;}
+button.accordion:nth-child(1) {margin-top: 20px;}
+button.accordion {background-color: #fff; color: #000; cursor: pointer; padding: 14px; width: 100%; border: 1px solid #000000; text-align: left; outline: none; font-size: 1.125rem; font-weight: bold; transition: 0.4s;}
+button.accordion.active, button.accordion:hover {background-color: #f2f2f2;}
+button.accordion:after {content: '\002B'; color: #000; font-weight: bold; float: right; margin-left: 5px; padding-top: 25px;}
+button.accordion.active:after {content: "\2212";}
+div.panel {margin: 20px 0 10px; max-height: 0; overflow: hidden; transition: max-height 0.2s ease-out;}
+div.panel p:first-child {margin-top: 20px;}
+button.accordion {padding: 1px 10px 1px 14px!important;}
+.accordion h3.title {float:left;	}
+/* end ACCORDION COLLLECTIONS */
+
+/* ACCORDION ACCESSIBLE*/
+.accordian{width: 100%;}
+/* Accordian headers */
+article {margin-bottom: 5px;}
+.section-title:after {color: #000; content: "\002B"; float: right; font-weight: bold; margin-left: 5px; margin-top: -30px; font-size: 1.125rem;}
+.section-title.open:after {content: "\2212";}
+.section-title.open {background-color: #f2f2f2;}
+.section-title {background-color: #fff; border: 1px solid #000; cursor: pointer; font-size: 1.125rem; font-weight: bold; outline: medium none; padding: 10px 10px 5px; text-align: left; transition: all 0.4s ease 0s; width: 100%; display:block;}
+.section-title:hover {background-color: #f2f2f2;}
+/* collapsing-section */
+.js .collapsing-section{display: none;}
+.collapsing-section p{margin-top: 10px;}
+.closed {display:none;}
+/* ACCORDION ACCESSIBLE END*/
+
+/* 2-COL PAGE */
+div.contentColumn, div.contentOneColumn {max-width: 100%!important;}
+@media only screen and (min-width: 768px) {
+div#twoColSide div#right {border-left: 0px solid #fff!important; margin-left: 10px; width: 25%!important; float: right!important;}
+.person-extended-page div#twoColSide div#events div#right, .extended div#twoColSide div#events div#right{display:none;}
+.person-extended-page div#twoColSide div#events div#left, .extended div#twoColSide div#events div#left{width: 100%!important;}
+.person-extended-page div#searchFor form input#eventSearch.textShort, .extended div#searchFor form input#eventSearch.textShort{border-radius: 0px; height: 2.2em; font-size: 1.125rem; padding-top: 0px !important;}
+.person-extended-page div#events, .person-page div#events, .people-list-page div#events, .portrait-list-page div#events, .extended div#events, .collectionsAZ div#events, .Search_Results  div#events, .EventsSearch_Results  div#events{margin-right: 20px;}
+.person-extended-page div.eventsItem , .portrait-list-page div.eventsItem { padding:0px!important; width: 100%!important;}
+.person-extended-page .eventsDesc, .person-page .eventsDesc, .portrait-list-page .eventsDesc { padding: 20px 20px 0px 0px;}
+.people-list-page .eventsItem.preferred div{ padding: 20px 20px 0px 0px;}
+.person-extended-page .image a img,.person-page .image a img,.portrait-list-page .image a img{padding:20px!important;}
+.people-list-page .eventsItem.preferred a.personResultThumb{margin:20px;}
+.people-list-page .eventsItem.preferred{padding: 0px!important;}
+.people-list-page .eventsItem.preferred div.imageOptions ul li a.portraitExtended{float:right;}
+
+}
+
+div#twoColSide div#left {width: 70%!important;}
+
+@media (max-width: 768px) {
+div#twoColSide div#left {width: 100%!important;}}
+
+@media (min-width:768px) {
+div#twoColSide div#right div.sideHome {width: 75%!important;}}
+
+@media (min-width:1000px) {
+div#twoColSide div#right div.sideHome {width: 80%!important;}}
+
+@media (min-width:1250px) {
+div#twoColSide div#right div.sideHome {width: 90%!important;}}
+
+div.sideHome {border-bottom: 8px solid #fff!important; background-color: #f2f2f2;padding: 20px;}
+/* 2-COL PAGE END*/
+
+/*FULL WIDTH EVENTS TEMPLATE*/
+@media (max-width: 768px) {
+div.contentOneColumn div.imageOptions {width: 100%; margin-bottom: 20px;}
+div.imageOptions {clear: left!important;}
+}
+/*FULL WIDTH EVENTS TEMPLATE END*/
+
+/* EVENTS FEED */
+div.event-widget div.eventsItem div.image a img {max-width : 300px!important;}
+div.event-widget p.matches {display: none;}
+div.eventsItem {padding: 15px!important;}
+div.eventsItem div.eventDetails h3 {margin-top: 0!important;}
+
+@media (max-width: 768px) {
+div.event-widget div.eventsItem div.image {display: inline; float: none; margin-right: 10px; text-align: left; width: 100%;}
+div.event-widget div.eventsItem div.image a img {margin: 0 auto!important; width : 100%!important;}
+div.eventsItem div.eventDetails {margin-left: 0!important;}
+}
+/* EVENTS FEED END */
+
+/*THEME TEMPLATE*/
+@media (min-width : 1px) and (max-width : 768px) {
+.portraitPanelRow div.portrait-panel.mediumPortrait.portraitLeft, .portraitPanelRow div.portrait-panel.mediumPortrait.portraitCenter, .portraitPanelRow div.portrait-panel.mediumPortrait.portraitRight {width: 274px!important;}	
+}
+.portraitPanelRow div.portrait-panel.mediumPortrait.portraitLeft, .portraitPanelRow div.portrait-panel.mediumPortrait.portraitCenter, .portraitPanelRow div.portrait-panel.mediumPortrait.portraitRight {width: 31.5%;}
+.portraitPanelRow div.portrait-panel.mediumPortrait.portraitLeft div.image, .portraitPanelRow div.portrait-panel.mediumPortrait.portraitCenter div.image, .portraitPanelRow div.portrait-panel.mediumPortrait.portraitRight div.image  { background: none!important;}
+div.portraitPanelRow {width: 100%!important; margin: 0!important; border-bottom: none!important;}
+div.themeNavigationTop {border-bottom: none!important;}
+
+@media (min-width:769px) {
+.portraitPanelRow div.portrait-panel.mediumPortrait.portraitRight {margin-left: 0px!important; float: left!important;}
+.portraitPanelRow div.portrait-panel.mediumPortrait.portraitCenter {margin-left: 0px!important; margin-right: 0px!important;	}
+.portraitPanelRow div.portrait-panel.mediumPortrait.portraitLeft {margin-right: 0px!important;}
+}
+/*THEME TEMPLATE END*/
+
+/*PORTRAIT.PHP PAGE*/
+div.contentColumn p.title {clear: left;}
+
+/*top one portrait matching text*/
+div#searchMatches {border-bottom: 0px solid #e6e7e7!important; font-size: 1.125rem; margin-bottom: 15px;}
+
+/*SVG buttons above headings */
+div.themeNavigationBottom, div.themeNavigationTop, div.themeNavigation {font-size: 1.125rem;}
+/*div.themeNavigationBottom img, div.themeNavigationTop img, div.themeNavigation img, div.themeNavigationTopPlain img {padding-right: 2px; position: relative;}*/
+div#twoColSide div#events div#left div.themeNavigationWrapper div.themeNavigation{padding-bottom: 15px; line-height: 30px;}
+.slideshowNavBtn {
+	display: inline-block;
+	border: 0;
+	padding: 0;
+	margin: 0;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	background: none;
+	text-align: left;
+	font-size: 1.125rem;
+}
+
+/*.slideshowNext {
+	margin-left: 10px;
+}
+.slideshowPrev {
+	margin-right: 10px;
+}*/
+
+
+@media only screen and (max-width: 768px){
+.portrait-page div#twoColSide div#events div#left div.themeNavigationWrapper div.themeNavigation a img	{width:30px;}
+.portrait-page div#twoColSide div#events div#left div.themeNavigationWrapper div.themeNavigation img {width:30px;}	
+.portrait-extended-page div#twoColSide div#events div#left div.themeNavigationWrapper div.themeNavigation a img {width: 30px;}
+.portrait-extended-page div#twoColSide div#events div#left div.themeNavigationWrapper div.themeNavigation img {width:30px;}		
+}
+/*End List above headings */
+
+/*Back to top button ghosted */
+.catalogueSection h3.title a.backToTop{display:none;}
+/*End Back to top button ghosted */
+
+/*Grey separator lines to black*/
+div.disclosure div.catalogueSection h3 {border-top: 1px solid #000!important;}
+.portrait-page div#twoColSide div#events div#left div#searchMatches{border-bottom: 0px solid #000!important;}
+
+div#commentsSection.catalogueSection h3.title {border-top: 0px solid #000!important;}
+/*End Grey separator lines to black*/
+
+/* Supplementery image full height */
+#imgScrollWrapper div.imgScrollImg {height: 100%!important;}
+
+/*Body text for titles left */
+.contentPage div.contentFull.disclosure div.catalogueSection ul{margin-left: 0px !important;}
+/*End Body text for titles left */
+
+/*making all lines full width*/
+div#events div.contentPage div.contentFull {clear: left; width: 100%;}
+
+/*Events section font change*/
+/*div.contentPage div.disclosure {font-size: 1.125rem!important; margin-left: 0; padding-top: 2em;}*/
+
+/*Top colom with image to full with flex */
+ul.additionalLinks, div.linksBox, div.landingBox, div.contentColumn, div.contentColumnImage {width: 100%;}
+
+/*center large image */
+p img.mainImage {max-width: 100%; margin: 0 auto;}
+
+/* fixes number list at top of page */
+#main div.themeNavigationWrapper {margin-top: 15px;}
+
+/*lines up button options*/
+div#imageOptions ul li, div.imageOptions ul li, div.imageOptions ul li {display: inline!important; margin-right: 10px;}
+.Exhibitions_Events div#twoColSide div#left div.contentPage div.contentOneColumn div#eventDetails div.imageOptions ul li{display: block!important;}
+
+/*button styles*/
+.imageOptions ul li.acquisition{ /*position:absolute;*/}
+li a.zoomify, li a.getPrint, li a.licenseImage, li a.addthis_button_compact, li a.findoutmore , li a.portraitExtended {display: inline-block; /*text-align: center;*/ vertical-align: middle; padding: 8px!important; margin-bottom: 5px; margin-top: 5px; border: 2px solid #006ed2; border-radius: 0px; color: #006ed2; text-decoration: none;}
+.portrait-page li a.zoomify, .portrait-page li a.getPrint, .portrait-page li a.licenseImage, .portrait-page li a.addthis_button_compact, .portrait-page li a.findoutmore , .portrait-page li a.portraitExtended { width:60%; float: right;}
+.portraitExtended::before {background: rgba(0, 0, 0, 0) url("/assets/images/layout/LVC_icon_blue.svg") no-repeat scroll left center / 100% 100%; content: " "; display: inline-block; height: 20px; left: 0; line-height: 24px; margin-right: 10px; position: relative; top: 0; width: 20px;}
+.portraitExtended:hover:before {background: rgba(0, 0, 0, 0) url("/assets/images/layout/LVC_icon_white.svg") no-repeat scroll left center / 100% 100%; content: " "; display: inline-block; height: 20px; left: 0; line-height: 24px; margin-right: 10px; position: relative; top: 0; width: 20px;}
+.zoomify::before {background: rgba(0, 0, 0, 0) url("/assets/images/layout/zoom_blue.svg") no-repeat scroll left center / 100% 100%; content: " "; display: inline-block; height: 20px; left: 0; line-height: 24px; margin-right: 10px; position: relative; top: 0; width: 20px;}
+.zoomify:hover:before {background: rgba(0, 0, 0, 0) url("/assets/images/layout/zoom_white.svg") no-repeat scroll left center / 100% 100%; content: " "; display: inline-block; height: 20px; left: 0; line-height: 24px; margin-right: 10px; position: relative; top: 0; width: 20px;}
+.getPrint::before {background: rgba(0, 0, 0, 0) url("/assets/images/layout/print_blue.svg") no-repeat scroll left center / 100% 100%; content: " "; display: inline-block; height: 20px; left: 0; line-height: 24px; margin-right: 10px; position: relative; top: 0; width: 20px; float: left;}
+.getPrint:hover:before {background: rgba(0, 0, 0, 0) url("/assets/images/layout/print_white.svg") no-repeat scroll left center / 100% 100%; content: " "; display: inline-block; height: 20px; left: 0; line-height: 24px;margin-right: 10px; position: relative; top: 0; width: 20px;}
+.licenseImage::before {background: rgba(0, 0, 0, 0) url("/assets/images/layout/license_blue.svg") no-repeat scroll left center / 100% 100%; content: " "; display: inline-block; height: 20px; left: 0; line-height: 24px; margin-right: 10px; position: relative; top: 0; width: 20px; float: left;}
+.licenseImage:hover:before {background: rgba(0, 0, 0, 0) url("/assets/images/layout/license_white.svg") no-repeat scroll left center / 100% 100%; content: " "; display: inline-block; height: 20px; left: 0; line-height: 24px; margin-right: 10px; position: relative; top: 0; width: 20px;}
+.addthis_button_compact::before {background: rgba(0, 0, 0, 0) url("/assets/images/layout/share_blue.svg") no-repeat scroll left center / 100% 100%; content: " "; display: inline-block; height: 20px; left: 0; line-height: 24px; margin-right: 10px; position: relative; top: 0; width: 20px; float: left;}
+.addthis_button_compact:hover:before {background: rgba(0, 0, 0, 0) url("/assets/images/layout/share_white.svg") no-repeat scroll left center / 100% 100%; content: " "; display: inline-block; height: 20px; left: 0; line-height: 24px; margin-right: 10px; position: relative; top: 0; width: 20px;}
+.portrait-extended-page div#twoColSide div#events div#left div.contentPage div.contentColumn div.imageOptions{clear:both;}
+.portrait-extended-page div#twoColSide div#events div#left div.contentPage div.contentColumn div.imageOptions ul li a{width: 60%; float: right;}
+div.imageOptions a.zoomify, div.imageOptions a.getPrint, div.imageOptions a.licenseImage {background:none;}
+li a.zoomify:hover, li a.zoomify:focus, li a.getPrint:hover, li a.getPrint:focus, li a.licenseImage:hover, li a.licenseImage:focus, li a.addthis_button_compact:hover, li a.addthis_button_compact:focus, li a.findoutmore:hover, li a.findoutmore:focus, li a.portraitExtended:hover, li a.portraitExtended:focus  {border: 2px solid #006ed2; color: #ffffff; background: linear-gradient(to bottom, #006ed2, #006ed2); text-decoration: none;}
+div#commentsSection {margin-top:-20px!important;}
+li.acquisition {display:block; float:right; margin-top: 5%;}
+.blog-comment-box {max-width: 1200px!important;}
+.blog-comment-form input {max-width: 1200px!important;}
+.largistText {font-size: 1.125rem!important;}
+
+
+/*publications section*/
+.portrait-page div#left #publications .collapsible,
+.portrait-page div#left #publications .collapsible p {
+    font-size: 1rem;
+}
+
+/*PORTRAIT.PHP PAGE END*/
+
+/* PERSON-LIST and PORTRAIT-LIST */
+div.contentFullPerson {width: 100%;}
+div.catalogueSectionPerson h3 {border-top: 0;}
+.people-list-page div#twoColSide div#events div#left div#eventsListing div.eventsItem.preferred div.imageOptions {width: 250px!important; background: none!important;}
+.people-list-page div#twoColSide div#events div#left div#eventsListing div.eventsItem.preferred div.imageOptions ul {background: none!important;}
+
+/* Search form style */
+div#mainContent.people-list-page div.eventsItem {font-size: 1.125rem; margin-bottom: 10px;}
+.people-list-page div#twoColSide div#events div#left ul#searchSections, .portrait-list-page div#twoColSide div#events div#left ul#searchSections {font-size: 1.125rem!important;}
+.person-page div#twoColSide div#events  form input#eventSearch.text, div#mainContent.portrait-list-page div#twoColSide div#events  form input#eventSearch.text, .people-list-page div#twoColSide div#events  form input#eventSearch.text, div#mainContent.portrait-list-page div#twoColSide div#events  form input#eventSearch.text, .EventsSearch_Results div#wrapper div#main div#mainContent div#twoColSide div#events div#left div#searchFor form input#eventSearch.text, .Search_Results div#wrapper div#main div#mainContent div#twoColSide div#events div#left div#searchFor form input#eventSearch.text, .collectionsAZ div#twoColSide div#events div#left div#searchFor.refinedPage form input#eventSearch.text {background: #ffffff; border-radius: 0; font-size: 1.1em; height: 1.6em; margin-top: 10px; margin-left: 10px; padding-top: 0!important; width: 73%!important; font-size: 1.6em; border: 3px solid #fff;}
+
+div#mainContent.gallery-records-search div#twoColSide div#events div#left div#GRsearch div#searchForExtendedWrapper div#searchForExtended form input.text {background: #ffffff; border-radius: 0; font-size: 1.1em; height: 1.6em; margin-top: 10px; margin-left: 10px; padding-top: 0!important; width: 60%!important; font-size: 1.6em; border: 3px solid #fff;}
+
+div#GRsearch div#searchForExtendedWrapper div#searchFor form input.textShort, div#GRsearch div#searchForExtendedWrapper div#searchFor form select {background: #ffffff; border-radius: 0; font-size: 1.1em; height: 1.6em; margin-top: 10px; margin-left: 10px; padding-top: 0!important; font-size: 1.6em; border: 3px solid #fff;}
+
+div#GRsearch div#searchForExtendedWrapper div#searchFor form select { -moz-appearance: none !important; -webkit-appearance: none!important; -o-appearance: none; appearance: none; background-image: url("/assets/images/layout/down-arrowTnew.png") !important; background-position: 95% center; background-repeat: no-repeat; cursor: pointer; outline: medium none; padding-right: 30px;}
+
+div#GRsearch div#searchForExtendedWrapper div#searchFor form select::-ms-expand {display: none;}
+	
+div#mainContent.person-page div#twoColSide div#events  form input#eventSearch.text:hover, div#mainContent.person-page div#twoColSide div#events  form input#eventSearch.text:focus, div#mainContent.people-list-page div#twoColSide div#events  form input#eventSearch.text:hover, div#mainContent.people-list-page div#twoColSide div#events  form input#eventSearch.text:focus, .EventsSearch_Results div#wrapper div#main div#mainContent div#twoColSide div#events div#left div#searchFor form input#eventSearch.text:hover, .EventsSearch_Results div#wrapper div#main div#mainContent div#twoColSide div#events div#left div#searchFor form input#eventSearch.text:hover, .portrait-list-page div#twoColSide div#events div#left div#searchFor.refinedPage form input#eventSearch.text:hover, .portrait-list-page div#twoColSide div#events div#left div#searchFor.refinedPage form input#eventSearch.text:focus, .Search_Results div#wrapper div#main div#mainContent div#twoColSide div#events div#left div#searchFor form input#eventSearch.text:hover, .Search_Results div#wrapper div#main div#mainContent div#twoColSide div#events div#left div#searchFor form input#eventSearch.text:focus, .collectionsAZ div#twoColSide div#events div#left div#searchFor.refinedPage form input#eventSearch.text:hover, .collectionsAZ div#twoColSide div#events div#left div#searchFor.refinedPage form input#eventSearch.text:focus, .conservation div#twoColSide div#events div#left div#searchMatches div#searchFor form input#searchKeyword.text220:hover, .conservation div#twoColSide div#events div#left div#searchMatches div#searchFor form input#searchKeyword.text220:focus, .refinedPage form input#eventSearch.text:hover, .refinedPage form input#eventSearch.text:focus, div#mainContent.gallery-records-search div#twoColSide div#events div#left div#GRsearch div#searchForExtendedWrapper div#searchForExtended form input.text:hover, div#mainContent.gallery-records-search div#twoColSide div#events div#left div#GRsearch div#searchForExtendedWrapper div#searchForExtended form input.text:focus, div#GRsearch div#searchForExtendedWrapper div#searchFor form input.textShort:hover, div#GRsearch div#searchForExtendedWrapper div#searchFor form input.textShort:focus  {border: 3px solid #006ed2;}
+
+.person-page div#twoColSide div#events div#left div#searchFor.refinedPage form{background-color: #f2f2f2!important;}
+.person-page div#twoColSide div#events div#left div#searchFor.refinedPage ul#collectionLinks{margin-left:15px;}
+.portrait-list-page div#twoColSide div#events div#left div#searchFor.refinedPage form, .people-list-page div#twoColSide div#events div#left div#searchFor.refinedPage,.people-list-page div#twoColSide div#events div#left div#searchFor.refinedPage form, .people-list-page div#twoColSide div#events div#left div#searchFor.refinedPage, .EventsSearch_Results div#wrapper div#main div#mainContent div#twoColSide div#events div#left div#searchFor form, .Search_Results div#wrapper div#main div#mainContent div#twoColSide div#events div#left div#searchFor form, .collectionsAZ div#twoColSide div#events div#left div#searchFor.refinedPage form {background-color: #f2f2f2!important;}
+
+ul#collectionLinks {font-size: 1.125rem;}
+.person-page div#twoColSide div#events div#left ul#searchSections, .portrait-list-page div#twoColSide div#events div#left ul#searchSections, .people-list-page div#twoColSide div#events div#left ul#searchSections {font-size: 1.125rem;}
+.portrait-list-page div#twoColSide div#events div#left div#eventsListing div.pagination.pagination-top div.themeNavigationWrapper div.themeNavigationTop, .people-list-page div#twoColSide div#events div#left div#eventsListing div.pagination.pagination-bottom div.themeNavigationWrapper {float:left;}
+
+@media only screen and (min-width: 800px) {
+.portrait-list-page div#twoColSide div#events div#left div#eventsListing div.pagination.pagination-bottom div.themeNavigationWrapper div.themeNavigationTop{float:left;}
+} 
+
+.portrait-list-page div#twoColSide div#events div#left div#eventsListing div.pagination.pagination-top a#refineToggle, .people-list-page div#twoColSide div#events div#left div#eventsListing div.pagination.pagination-top a#refineToggle {float:left; clear:both;}
+
+.portrait-list-page div#twoColSide div#events div#left div#eventsListing div.pagination.pagination-top div.num_per_page, .people-list-page div#twoColSide div#events div#left div#eventsListing div.pagination.pagination-bottom div.num_per_page, .people-list-page div#twoColSide div#events div#left div#eventsListing div.pagination.pagination-top div.num_per_page, .people-list-page div#twoColSide div#events div#left div#eventsListing div.pagination.pagination-bottom div.num_per_page {float: right; font-size: 1.125rem; margin-top: 10px;}
+.portrait-list-page div#twoColSide div#events div#left div#eventsListing div.pagination.pagination-bottom div.num_per_page{font-size: 1.125rem;}
+.portrait-list-page div#twoColSide div#events div#left div#searchFor.refinedPage form input#submitSearchTerm.submit.btnlink, .people-list-page div#twoColSide div#events div#left div#searchFor.refinedPage form input#submitSearchTerm.submit.btnlink {margin-top: -10px; cursor: pointer;}
+
+@media (min-width:768px) {
+ul#searchSections li, ul.pageTabs li {background-color: #eeedd6!important; margin-right: 5px; margin-top: 40px; font-size: 1.125rem!important; padding: 7px 9px 3px!important;}
+.portrait-page div#twoColSide div#events div#left ul.pageTabs li{margin-top: 0px;}
+.ul#searchSections li{border-left: 1px solid #eeedd6;}
+.portrait-list-page div#twoColSide div#events div#left div#searchFor.refinedPage ul#collectionLinks, .people-list-page div#twoColSide div#events div#left div#searchFor.refinedPage ul#collectionLinks {margin-left: 15px!important; background-color:#f2f2f2;}
+div#searchFor.refinedPage {background-color: #f2f2f2;}
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+ul#searchSections li, ul.pageTabs li {margin-top: 5px;}
+	} 
+
+/*Search button */
+.person-page div#twoColSide div#events div#left div#searchFor.refinedPage form input#submitSearchTerm.submit.btnlink, .people-list-page div#twoColSide div#events div#left div#searchFor.refinedPage form input#submitSearchTerm.submit.btnlink, .portrait-list-page div#twoColSide div#events div#left div#searchFor.refinedPage form input#submitSearchTerm.submit.btnlink, .people-list-page div#twoColSide div#events div#left div#searchFor.refinedPage form input#submitSearchTerm.submit.btnlink, .EventsSearch_Results div#wrapper div#main div#mainContent div#twoColSide div#events div#left div#searchFor form input#searchSubmitTerm.submit.btnlink, .Search_Results div#wrapper div#main div#mainContent div#twoColSide div#events div#left div#searchFor form input#searchSubmitTerm.submit.btnlink, .collectionsAZ div#twoColSide div#events div#left div#searchFor.refinedPage form input#submitSearchTerm.submit.btnlink {width:20%; margin-bottom: 7px; margin-top: -10px; -webkit-appearance: none; -moz-appearance: none; appearance: none;}
+
+/* results style */
+.people-list-page div#twoColSide div#events div#left div#eventsListing div.eventsItem.preferred {background-color: #eeedd6; padding-right: 0px!important;}
+.people-list-page div#twoColSide div#events div#left div#eventsListing div.eventsItem {background-color: #f2f2f2; padding-right: 0px!important;}
+
+/* Refine search drop down */
+.portrait-list-page div#twoColSide div#events div#left div#eventsListing div div#portFiltersWrapper.refinedWrapper form#portFilters div.left div.row input#updateResults.submit.btnlink {margin-top: 0px;}
+.portrait-list-page div#twoColSide div#events div#left div#eventsListing div div#portFiltersWrapper.refinedWrapper form#portFilters div.left div.row p {font-size: 1.125rem!important;}
+
+div#peopleFiltersWrapper.refinedWrapper, .refinedWrapper form#personFilters div.left div.row {background-color: #f2f2f2; font-size: 1.125rem;}
+div.refinedWrapper div.formItem b {font-size: inherit;}
+div.refinedWrapper div.right p {font-size: 1.125rem;}
+div.refinedWrapper div.left {background: #eeedd6 none repeat scroll 0 0; padding: 10px 0 0 10px;}
+
+.portrait-list-page div#twoColSide div#events div#left div#eventsListing div div#peopleFiltersWrapper.refinedWrapper form#personFilters div.left, .people-list-page div#twoColSide div#events div#left div#eventsListing div div#peopleFiltersWrapper.refinedWrapper form#personFilters div.left {text-align:left!important;}
+.portrait-list-page .formItem select, .people-list-page .formItem select {background-color: rgba(0, 0, 0, 0); border: 2px solid #242424; box-sizing: border-box; color: #000000; font-size: 16px; line-height: 1.8em; padding-left: 5px;}
+.portrait-list-page select, .people-list-page select {-moz-appearance: none; background-image: url("/assets/images/layout/down-arrowTnew.png"); background-position: 95% center; background-repeat: no-repeat; cursor: pointer; outline: medium none;}
+.portrait-list-page div#twoColSide div#events div#left div#eventsListing div.view-results-options form#sortForm select{background-color: rgba(0, 0, 0, 0); border: 2px solid #242424; box-sizing: border-box; color: #000000; font-size: 1.125rem; line-height: 1.8em; padding-left: 5px;}
+.portrait-list-page div#twoColSide div#events div#left div#eventsListing div.view-results-options form#sortForm select::-ms-expand {display: none;}
+.portrait-list-page select, .people-list-page select {background-color: transparent!important; border: 2px solid #242424; box-sizing: border-box; color: #000; font-size: 16px; line-height: 1.8em; padding-left: 5px; -moz-appearance: none!important; -webkit-appearance: none!important; background-image: url("/assets/images/layout/down-arrowTnew.png")!important; background-position: 95% center; background-repeat: no-repeat; cursor: pointer; outline: medium none;}
+.portrait-list-page select, .people-list-page select::-ms-expand {display: none;}
+.view-results-options select::-ms-expand {display: none;}
+.person-page div#twoColSide div#events div#left div#eventsListing div.view-results-options form#sortForm label{font-size: 1.125rem;}
+.view-results-options select{-webkit-appearance: none!important; -moz-appearance: none !important; appearance: none; background-color: transparent !important; background-image: url("/assets/images/layout/down-arrowTnew.png") !important; background-position: 95% center; background-repeat: no-repeat; cursor: pointer; outline: medium none; width: 210px !important; border: 2px solid #000; font-size: 1.125rem;}
+
+div.view-results-options{background-color: #f2f2f2!important; padding:20px 0px 20px 0px;}
+.portrait-list-page div#twoColSide div#events div#left div#eventsListing div.view-results-options form#sortForm label {font-size: 1.125rem;}
+div.view-results-options p a {font-size: 1.125rem;}
+div.view-results-options p span.list {font-size: 1.125rem;}
+
+/*Chrome only for thumb nail bar*/
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+div.view-results-options p {margin-top: 7px;}
+.person-page div#twoColSide div#events div#left div#eventsListing div.view-results-options form#sortForm {-webkit-appearance: none!important;margin-top: 5px;}
+}
+
+div.refinedWrapper div.formItem b {display: block; font-size: 1.2rem!important; margin-bottom: 12px;}
+.search-extract {color: #838383;}
+div#mainContent.portrait-list-page ul, div#mainContent.person-page ul, div#mainContent.gallery-records-search div#twoColSide div#events div#left div.eventsItem div.eventsDesc div.imageOptions ul li {list-style-type: none!important; font-size: 1.125rem;}
+
+.portrait-list-page div#twoColSide div#events div#left div#eventsListing div div#portFiltersWrapper.refinedWrapper form#portFilters div.left div.row{background: #f2f2f2 none repeat scroll 0 0; float: left; padding: 5px 10px; width: 350px;}
+.portrait-list-page div#twoColSide div#events div#left div#eventsListing div div#portFiltersWrapper.refinedWrapper{background: #f2f2f2 none repeat scroll 0 0; width: 100%;}
+.portrait-list-page div#twoColSide div#events div#left div#eventsListing div div#portFiltersWrapper.refinedWrapper form#portFilters div.left div.right{float: right; padding: 10px 7px 0; width: 216px; }
+.portrait-list-page div#twoColSide div#events div#left div#eventsListing div div#portFiltersWrapper.refinedWrapper form#portFilters div.left div.row div.formItem{width: 380px;}
+.portrait-list-page div#twoColSide div#events div#left div#eventsListing div div#portFiltersWrapper.refinedWrapper div.row.bottom{background: #f2f2f2 none repeat scroll 0 0;}
+.portrait-list-page div#twoColSide div#events div#left div#eventsListing div div#portFiltersWrapper.refinedWrapper div.row.bottom p{font-size: 1.125rem;}
+
+/* End Refine search drop down */
+
+/*select list */
+.extended div#twoColSide div#events div#left div#searchFor form {background-color: #f2f2f2; font-size: 1.125rem; padding: 15px 2px 15px 10px; height: auto;}
+.extended div#twoColSide div#events div#left div#searchFor form input#eventSearch.text{border-radius: 0 !important; font-size: 1.1em; width: 40%; padding-left: 10px; width: 40%; height: 40px; padding-top: 0 !important;}
+.extended div#twoColSide div#events div#left div#searchFor form select#LVCSelectBox{background-color: rgba(0, 0, 0, 0); border: 2px solid #242424; box-sizing: border-box; color: #000000; font-size: 1.125rem;line-height: 1.8em; -webkit-appearance: none!important; -moz-appearance: none !important; background-color: transparent !important; background-image: url("/assets/images/layout/down-arrowTnew.png"); background-repeat: no-repeat; cursor: pointer; background-position: 95% center; width: 200px; height: 40px; padding-left:10px;  margin-left: 10px; margin-right: 5px; margin-top: 0;}
+.extended select::-ms-expand {display: none;}
+.extended div#twoColSide div#events div#left div#searchFor form input.submit.btnlinkfile{background: transparent; font-size: 1.125rem; width:20%; Margin-top: 0px;	top: 0px!important; height: 40px; margin-bottom: 3px;}
+.extended div#twoColSide div#events div#left div#searchFor form input.submit.btnlinkfile:hover, .extended div#twoColSide div#events div#left div#searchFor form input.submit.btnlinkfile:focus { background: rgba(0, 0, 0, 0) linear-gradient(to bottom, #006ed2, #006ed2) repeat scroll 0 0; border: 2px solid #006ed2; color: #ffffff;text-decoration: none; font-size: 1.125rem;}
+
+.extended div#twoColSide div#events div#left ul.pageTabs li{background-color: #eeedd6; border-left: 1px solid #e6e7e7; float: left; margin-top: 5px; padding: 1px 7px 3px; margin-left: 5px; }
+
+@media screen and (max-width:767px) {
+.extended div#twoColSide div#events div#left div#eventsListing div.a-zNav span {background-color: #f2f2f2!important;}
+}
+
+img[src="Error.src"] {display: none;}
+/*end select list */
+
+/* Search collection title for person page*/
+.person-page div#twoColSide div#events div#left span.search-pseudo-head, .Dynamic-Content div#wrapper div#main div#mainContent div#twoColSide div#events div#left span.search-pseudo-head{font-size: 3rem !important; line-height: 1.05em;}
+div.view-results-options p a.list {color: #006ed2;}
+div.view-results-options p a.thumbs {color: #006ed2;}
+
+/* PORTRAIT LIST */
+.person-page div#twoColSide div#events div#left div#eventsListing div.eventsItem div.eventsDesc, .portrait-list-page div#twoColSide div#events div#left div#eventsListing div.eventsItem div.eventsDesc, .conservation div#twoColSide div#events div#left div.eventsItem div.eventsDesc {font-size: 1.125rem;}
+
+@media (min-width:768px) {
+.person-page div#twoColSide div#events div#left div#eventsListing div.eventsItem div.image,.portrait-list-page div#twoColSide div#events div#left div#eventsListing div.eventsItem div.image, .conservation div#twoColSide div#events div#left div.eventsItem div.image, .gallery-records-search div#twoColSide div#events div#left div.eventsItem div.image {width:264px; margin-right: 40px;}
+}
+
+.person-page div#twoColSide div#events div#left div#eventsListing div.eventsItem, .portrait-list-page div#twoColSide div#events div#left div#eventsListing div.eventsItem , .conservation div#twoColSide div#events div#left div.eventsItem, .gallery-records-search div#twoColSide div#events div#left div.eventsItem {background-color:#f2f2f2; margin-bottom: 10px;}
+.person-page div#twoColSide div#events div#left div#eventsListing div.eventsItem, .portrait-list-page div#twoColSide div#events div#left div#eventsListing div.eventsItem, .conservation div#twoColSide div#events div#left div.eventsItem, .gallery-records-search div#twoColSide div#events div#left div.eventsItem {width: 97.5%;}
+
+@media (max-width:768px) {
+.person-page div#twoColSide div#events div#left div#eventsListing div.eventsItem, .portrait-list-page div#twoColSide div#events div#left div#eventsListing div.eventsItem, .conservation div#twoColSide div#events div#left div.eventsItem {width: 100%;}
+}
+
+.portrait-list-page div#twoColSide div#events div#left div#eventsListing div.eventsItem div.eventsDesc div.imageOptions ul a.btnlink{margin-bottom: 5px; margin-top: 5px; padding: 8px !important;}
+.findoutmore::before {content: " "; display: inline-block; height: 20px; left: 0; line-height: 24px; position: relative; top: 0;}
+.person-page div#twoColSide div#events div#left div#eventsListing div.eventsItem div.eventsDesc div.imageOptions, .portrait-list-page div#twoColSide div#events div#left div#eventsListing div.eventsItem div.eventsDesc div.imageOptions, div#mainContent.gallery-records-search div#twoColSide div#events div#left div.eventsItem div.eventsDesc div.imageOptions {margin-right: -40px !important; width: 80% !important; background:none!important;}
+.person-page div#twoColSide div#events div#left div#eventsListing div.eventsItem div.eventsDesc div.imageOptions ul, .portrait-list-page div#twoColSide div#events div#left div#eventsListing div.eventsItem div.eventsDesc div.imageOptions ul {background:none!important;}
+.person-page div#twoColSide div#events div#left div#eventsListing div.eventsItem div.eventsDesc div.imageOptions, .portrait-list-page div#twoColSide div#events div#left div#eventsListing div.eventsItem div.eventsDesc div.imageOptions, div#mainContent.gallery-records-search div#twoColSide div#events div#left div.eventsItem div.eventsDesc div.imageOptions{float: left; margin-left: 0; margin-left: -15px;}
+.person-page div#twoColSide div#events div#left div#eventsListing div, .portrait-list-page div#twoColSide div#events div#left div#eventsListing div, .gallery-records-search div#twoColSide div#events div#left div.eventsItem div.image, div#mainContent.gallery-records-search div#twoColSide div#events div#left div.eventsItem div.eventsDesc div.imageOptions {margin-bottom: 10px;}
+
+/* tell us more box */
+.person-page div#twoColSide div#events div#left div#eventsListing div.contentFullPerson.disclosure div#commentsSection.catalogueSection div.blog-section div.blog-post-comments-shaded {font-size: 1.125rem;}
+.person-page div#twoColSide div#events div#left div#eventsListing div.contentFullPerson.disclosure div#commentsSection.catalogueSection div.blog-section div.blog-post-comments-shaded form#quip-add-comment-qcom.blog-comment-form div.quip-comment.quip-add-comment div.ugc-field-wrapper textarea{max-width:1200px!important;}
+.person-page div#twoColSide div#events div#left div#eventsListing div.contentFullPerson.disclosure div#commentsSection.catalogueSection div.blog-section div.blog-post-comments-shaded form#quip-add-comment-qcom.blog-comment-form div.quip-comment.quip-add-comment div.ugc-field-wrapper input {max-width:1200px!important;}
+
+/* PORTRAIT LIST THUMBS*/
+div#twoColSide div#events div#left div#eventsListing div.portraitPanelRow div.thumbListPortrait.portraitLeft, div#twoColSide div#events div#left div#eventsListing div.portraitPanelRow div.thumbListPortrait.portraitCenter, div#twoColSide div#events div#left div#eventsListing div.portraitPanelRow div.thumbListPortrait.portraitRight {height: auto; width: 264px;}
+div#twoColSide div#events div#left div#eventsListing div.portraitPanelRow div.thumbListPortrait a.thumb-holder {  background: rgba(0, 0, 0, 0) none repeat scroll 0 0; display: block; height: 350px; position: relative; text-align: center; vertical-align: middle; width: auto; z-index: 1;}
+div#twoColSide div#events div#left div#eventsListing div.portraitPanelRow div.thumbListPortrait a.thumb-holder span.eventHeading {color: #262626; height: auto; left: 0; bottom: 0; right: 0; padding: 10px; position: absolute; text-align: left; top: 0; vertical-align: bottom; width: auto !important; z-index: 2000; font-size: 1.125rem;}
+div#eventsListing div.portraitPanelRow div.thumbListPortrait a.thumb-holder:hover span.eventHeading {background-color: #f2f2f2;}
+div#eventsListing div.portraitPanelRow div.thumbListPortrait a.thumb-holder {height: auto!important;}
+
+@media (max-width:1120px)  { 
+.portrait-list-page div#twoColSide div#events div#left div#eventsListing div.portraitPanelRow div.thumbListPortrait.portraitCenter:nth-child(3) {clear:left;}
+.portrait-list-page div#twoColSide div#events div#left div#eventsListing div.portraitPanelRow {margin-left: 20% !important; margin-right: 15% !important;}
+}
+
+/* Make collection pages full width and hide right bar */
+.people-list-page div#twoColSide div#events div#right, .portrait-list-page div#twoColSide div#events div#right {display:none;}
+.portrait-list-page div#twoColSide div#events div#left, .people-list-page div#twoColSide div#events div#left {width: 100%!important;}
+.person-page  div#twoColSide div#events div#right, .portrait-list-page div#twoColSide div#events div#right {display:none;}
+.person-page  div#twoColSide div#events div#left, .people-list-page div#twoColSide div#events div#left {width: 100%!important;}
+
+/*Help page*/
+div#events div#left div#eventsListing p {font-size: 1.125rem;line-height: 1.4rem;}
+div#searchFor.refinedPage form { background: #f2f2f2 none repeat scroll 0 0!important; padding-left: 5px;}
+.refinedPage form input#eventSearch.text{background: #ffffff none repeat scroll 0 0; border: 3px solid #fff; border-radius: 0; font-size: 1.6em; height: 1.6em; margin-left: 10px; margin-top: 10px; padding-top: 0 !important; width: 73% !important;}
+.refinedPage form input#submitSearchTerm.submit.btnlink{ margin-bottom: 7px; margin-top: -10px; width: 20%;}
+.extended div#twoColSide div#events div#left div.floatLeft div#helpText.helpTextContainer {border: 5px solid #006ed2; left: 200px; padding: 20px 20px 15px; position: absolute; top: 870px; width: 300px; z-index: 1000; font-size: 1.125rem;}
+
+@media only screen and (max-width: 1209px)  { 
+.extended div#twoColSide div#events div#left div#searchFor form input.submit.btnlinkfile { left: 0; margin-top: 20px; width: 42%;}
+.extended div#twoColSide div#events div#left div#searchFor form select#LVCSelectBox { margin-left: 0px; width: 40%;}
+.extended div#twoColSide div#events div#left div#LVCsearch div#searchForExtendedWrapper p a#helpTextLink.btnlink { margin-left: 10px;margin-bottom: 20px;}
+ }
+ 
+ @media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px)
+and (-webkit-min-device-pixel-ratio: 1)  { 
+ .extended div#twoColSide div#events div#left div#searchFor form select#LVCSelectBox { width: 40%; clear: both; margin-top: 20px;}
+ .extended div#twoColSide div#events div#left div#searchFor form input.submit.btnlinkfile { width: 40%; clear: both; float:left;}
+}
+/*Help page end*/
+.refinedPage ul#collectionLinks{ margin-left: 15px!important;}
+
+/*Toggle button and text*/a#refineToggle {font-size: 1.125rem;}
+.portrait-list-page div#twoColSide div#events div#left div#eventsListing div div#portFiltersWrapper.refinedWrapper form#portFilters div.left p span#countAreaWrapper span#countArea {font-size: 1.125rem;}
+
+/*Eliminating lines for boxes on right side*/
+.people-list-page div#twoColSide div#events div#left div#eventsListing div.eventsItem div.imageOptions ul{background: none!important;}
+.people-list-page div#twoColSide div#events div#left div#eventsListing div.eventsItem div.imageOptions{background: none!important;}
+
+/*Tabs for LVC entries*/
+.portrait-page div#twoColSide div#events div#left ul.pageTabs li{font-size: 1.125rem!important; padding: 5px 10px;}
+
+/*Event listings*/
+@media (min-width:768px) { 
+html.js-enabled.flexbox.flexboxlegacy.no-flexboxtweener body.Standard-Content-full-width div#wrapper div#main div#mainContent div#oneColSide div#left div.contentPage div.contentOneColumn div.event-widget div.eventsItem div.eventDetails{margin-left: 400px!important;}
+}
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px)
+and (-webkit-min-device-pixel-ratio: 1) {
+	html.js-enabled.flexbox.flexboxlegacy.no-flexboxtweener body.Standard-Content-full-width div#wrapper div#main div#mainContent div#oneColSide div#left div.contentPage div.contentOneColumn div.event-widget div.eventsItem div.eventDetails{margin-left: 0px!important;}
+}
+
+/*Temproray hidden line added above tell us more*/
+div#commentsSection.catalogueSection h3.title{border-top: 1px solid #000!important; margin-top:30px;}
+
+/*page number menu top */
+.person-page div#twoColSide div#events div#left div#eventsListing div.pagination.pagination-top div.themeNavigationWrapper div.themeNavigationTop{float:left;}
+.person-page div#twoColSide div#events div#left div#eventsListing div.pagination.pagination-top div.num_per_page{font-size: 1.125rem; margin-top:15px;}
+.portrait-list-page div#twoColSide div#events div#left div#eventsListing div.pagination.pagination-top div.themeNavigationWrapper div.themeNavigationTop label.prefix{display:none;	}
+/*End page number menu top */
+
+/*page number menu bottom */
+.person-page div#twoColSide div#events div#left div#eventsListing div.pagination.pagination-bottom div.themeNavigationWrapper div.themeNavigationTop{float:left;	}
+.person-page div#twoColSide div#events div#left div#eventsListing div.pagination.pagination-bottom div.num_per_page{font-size: 1.125rem;}
+/*End page number menu bottom */
+
+/*Media section*/
+.person-page div#twoColSide div#events div#left div#eventsListing div.contentFullPerson.disclosure div#mediaSection.catalogueSectionPerson iframe.mediaEmbed{margin-right:10px; width: 383px;}
+
+/*@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+ .person-page div#twoColSide div#events div#left div#eventsListing div.contentFullPerson.disclosure div#mediaSection.catalogueSectionPerson iframe.mediaEmbed{margin-right:10px;	width: 383px;}
+}*/
+
+/*COLLECTION EVENTS SEARCH PAGE*/
+body.EventsSearch_Results div#wrapper div#main div#mainContent div#twoColSide div#events div#left div#eventsListing div.event-widget div.eventsItem div.eventDetails {margin-left: 320px;}
+.EventsSearch_Results div#wrapper div#main div#mainContent div#twoColSide div#events div#left {width: 100%!important;}
+div#searchFor form p.eventsearchoptions, div#searchFor form p.eventsearchoptions a {font-size: 1.125rem!important; margin-left: 5px; margin-bottom: -35px; margin-top:10px; background-color: #f2f2f2;}
+div#events div#left div#eventsListing div.event-widget h2 {border-bottom: 0px!important;}
+.EventsSearch_Results div#wrapper div#main div#mainContent div#twoColSide div#events div#left div#eventsListing div.event-widget p.matches {display:block;}
+.EventsSearch_Results div#wrapper div#main div#mainContent div#twoColSide div#events div#left div#searchFor form, .Search_Results div#wrapper div#main div#mainContent div#twoColSide div#events div#left div#searchFor form {min-height: 85px;}
+/*COLLECTION EVENTS SEARCH PAGE END*/
+
+/*GENERAL SEARCH PAGE*/
+.Search_Results div#wrapper div#main div#mainContent div#twoColSide div#events div#left {width: 100%!important;}
+.Search_Results div#wrapper div#main div#mainContent div#twoColSide div#events div#left div#eventsListing div#grpResult_site_wide.ajaxSearch_grpResult div.sisea-results-list div.eventsItem a.eventsItemLink {font-size: 2rem!important; line-height: 1.25em; margin: 1em 0 0.2em!important;}
+.Search_Results div#wrapper div#main div#mainContent div#twoColSide div#events div#right {display:none;}
+/*GENERAL SEARCH PAGE END*/
+
+/*ARTIST/SITTER A-Z PAGE END*/
+.collectionsAZ div#twoColSide div#events div#left {width: 100%!important;}
+.collectionsAZ div#twoColSide div#events div#right {display:none;}
+.collectionsAZ div#twoColSide div#events div#left div#eventsListing div.a-zNav div.a-zNav-inner {font-size: 1.125rem!important;}
+
+@media (min-width:801px)  { 
+div#eventsListing div.a-zNav span { border-right: 0px solid black!important; margin-right: 0em!important; padding-right: 0.5em; padding-left: 0.5em;}
+div#eventsListing div.a-zNav {font-size: 1.125rem;}
+}
+/*ARTIST/SITTER A-Z PAGE END*/
+
+/*SETS LIST PAGE*/
+.portrait-list-page div#twoColSide div#events div#left div#eventsListing div.catalogueSection {padding-top: 0px;}
+/*SETS LIST PAGE END*/
+
+
+/*PORTRAIT EXTENDED*/
+/*Anchor list*/
+.portrait-extended-page div#twoColSide div#events div#left div.contentPage div.contentColumn.last ul.anchorList{ display:none;}
+.portrait-extended-page div#twoColSide div#events div#left div.contentPage div.contentFull.disclosure div.catalogueSection p.title a.backToTop{ display:none;}
+
+/*Menu list */
+.portrait-extended-page div#twoColSide div#events div#left ul.pageTabs li{ margin-top: 10px;}
+/*END PORTRAIT EXTENDED*/
+
+/*ZOOM IMAGES*/
+.large-portrait-page div#twoColSide div#largeImage div#largeImage-inner div.landingRowNoBorder div.imageOptions ul{font-size: 1.125rem; padding: 0px!important;}
+
+/*Force image center*/
+.portrait-extended-page div#twoColSide div#events div#left div.contentPage div.contentColumn p{ display: block!important;}
+
+@media (min-width:801px)  { 
+.large-portrait-page div#twoColSide div#largeImage div#largeImage-inner{ width: 100%; } 
+.openseadragon { position: relative; width: 100% !important;}
+.large-portrait-page div#twoColSide div#largeImage div#largeImage-inner div.image{ margin-left: 10%; margin-right: 10%;}
+}
+
+div#largeImage div.mainImage .zoom-wrapper { border: 1px solid #f2f2f2!important;}
+.zoom-wrapper { background-color: #f2f2f2!important; clear: left;}
+
+/*comment box*/
+.large-portrait-page div#twoColSide div#largeImage div#largeImage-inner p{font-size: 1.125rem;}
+.large-portrait-page div#twoColSide div#largeImage div.contentFull.disclosure div#commentsSection.catalogueSection p{font-size: 1.125rem;}
+.large-portrait-page div#twoColSide div#largeImage div.contentFull.disclosure div#commentsSection.catalogueSection div.blog-section div.blog-post-comments-shaded form#quip-add-comment-qcom.blog-comment-form{font-size: 1.125rem !important;}
+.large-portrait-page div#twoColSide div#largeImage div.contentFull.disclosure div#commentsSection.catalogueSection div.blog-section div.blog-post-comments-shaded form.blog-comment-box { max-width: 1200px !important;}
+/*END ZOOM IMAGES*/
+
+/*PRINT PAGE*/
+.get-print-page div#twoColSide div#events div#left div#getPrintWrapper {font-size: 1.125rem;}
+.get-print-page #unframedPrintTable input#unframedSubmit {float: right!important; margin: 0!important; border: 2px solid #006ed2!important; background-color: transparent!important; cursor: pointer; font-size: 1.125rem;}
+.get-print-page div#twoColSide div#events div#left div#getPrintWrapper div.print-img-wrapper div#shippingOffer {margin-bottom: 1em; text-align: left!important;}
+.get-print-page #buyFrameTable {border-bottom: none!important; border-top: none!important; margin-bottom: 0!important; margin-top: 0!important; padding-bottom: 0!important; padding-top: 1px!important;}
+.shoppingBasketContainer ul.shopping_basket li p {width:100%!important;}
+.get-print-page .print-img-wrapper {float: left; width: 48%;}
+.get-print-page #unframedPrintTable {float: right!important;}
+.get-print-page div#twoColSide div#events div#left div#getPrintWrapper div.print-img-wrapper a img {max-width: 100%!important; height: auto!important;}
+.get-print-page div#twoColSide div#events div#left div#getPrintWrapper div.print-img-wrapper div#shippingOffer a img.icon {width: 25px!important; height: 18px;}
+
+@media (max-width:768px)  { 
+.get-print-page #unframedPrintTable {width: 100%!important; float: left!important;}
+.get-print-page #unframedPrintTable input#unframedSubmit {float: left!important;}
+}
+
+div.shoppage div#left div.contentPage p.noitemsbasket {margin-top:40px; line-height: 1.25em; font-size: 2rem!important; font-weight:bold;}
+/*PRINT PAGE END*/
+
+/* PORTAIT CONSERVATION PAGE */
+.portrait-conservation-page div#twoColSide div#events div#left div.contentPage div.contentColumn p a.largerImage {margin: 0 auto; max-width: 100%;}
+/* PORTAIT CONSERVATION PAGE END*/
+
+/* MATB SEARCH PAGE */
+.conservation div#twoColSide div#events div#left div#LVCsearch div.searchForMATBWrapper div.searchFor form div.formItem {width: 100%;}
+.conservation div#twoColSide div#events div#left div#LVCsearch div.searchForMATBWrapperSingle div.searchFor form div.formItem {width: 100%;}
+.conservation div#twoColSide div#events div#left div#LVCsearch div.searchForMATBWrapperSingle div.searchFor form input.submit.btnlink {margin-right: 10px;}
+.conservation div#twoColSide div#events div#left div#LVCsearch div.searchForMATBWrapper div.searchFor form div.formItem input.submit.btnlink {margin-right: 10px; float:right;}
+.conservation div#twoColSide div#events div#left div#LVCsearch div.searchForMATBWrapper div.searchFor form div.formItem select {background-color: rgba(0, 0, 0, 0); border: 2px solid #242424; box-sizing: border-box; color: #000000; font-size: 1.125rem; line-height: 1.8em; padding-left: 5px;}
+.conservation select {-webkit-appearance: none; -moz-appearance: none; background-image: url("/assets/images/layout/down-arrowTnew.png"); background-position: 98% center; background-repeat: no-repeat; cursor: pointer; outline: medium none; width: 60%; margin-left: 10px;}
+.conservation input.text100, .conservation input.text220 {background: #ffffff none repeat scroll 0 0; height: 30px; width: 320px; border-radius: 0; width: 60%; margin-left: 10px;}
+.conservation div#twoColSide div#events div#left h2 span.rightArrows a#helpTextLink.blueText {font-size: 1.125rem;}
+.conservation div#twoColSide div#events div#left div#helpText.helpTextContainer {font-size: 1.125rem;}
+.conservation div#twoColSide div#events div#left div#searchMatches div#searchFor form input#search-again-LVC.submit.btnlink {background-color: transparent; margin-bottom: 7px; margin-top: -10px; width: 20%;}
+.conservation div#twoColSide div#events div#left div#searchMatches div#searchFor form {Padding-top: 15px;}
+.conservation div#twoColSide div#events div#left div#searchMatches div#searchFor form input#searchKeyword.text220 {width: 73%; border: 3px solid #fff; font-size: 1.125rem;}
+.conservation div#twoColSide div#events div#left div#searchMatches div#searchFor form a {font-size: 1.125rem;}
+.conservation div#twoColSide div#events div#left div.catalogueSearchResult {font-size: 1.125rem;}
+.conservation div#twoColSide div#events div#left div.themeNavigationWrapper div.themeNavigationTopPlain {font-size: 1.125rem;}
+/* MATB SEARCH PAGE END*/
+
+/* LVC PERSON EXTENDED LIST */
+.person-extended-page div#twoColSide div#events div#left div#searchFor form select#LVCSelectBox {-moz-appearance: none !important; background-color: rgba(0, 0, 0, 0) !important; background-image: url("/assets/images/layout/down-arrowTnew.png"); background-position: 95% center; background-repeat: no-repeat; border: 2px solid #242424; box-sizing: border-box; color: #000000; cursor: pointer; font-size: 1.125rem; height: 2.2em; line-height: 1.8em; margin-left: 10px; margin-right: 5px; margin-top: 5px; padding-left: 10px; width: 200px; font-family: FSAlbertRegular,FSAlbertBold,FSAlbertItalic,arial,helvetica,verdana;}
+.person-extended-page div#twoColSide div#events div#left div#searchFor form input#eventSearch.text {background: #ffffff none repeat scroll 0 0; border-radius: 0 !important; font-size: 1.125rem; height: 1.8em; padding-left: 10px; padding-top: 0 !important; width: 40%; border: 3px solid #fff;}
+.person-extended-page div#twoColSide div#events div#left div#searchFor form input#eventSearch.text:hover, .person-extended-page div#twoColSide div#events div#left div#searchFor form input#eventSearch.text:focus {border: 3px solid #006ed2;}
+.person-extended-page div#twoColSide div#events div#left div#searchFor form input.submit.btnlinkfile {font-size: 1.125rem; height: 2.2em; margin-bottom: 5px; margin-top: 0; top: 0 !important; width: 20%; cursor:pointer; font-family: FSAlbertRegular,FSAlbertBold,FSAlbertItalic,arial,helvetica,verdana;}
+.person-extended-page div#twoColSide div#events div#left p.largistText{font-size: 1.75rem !important; line-height: 1.25em;}
+.person-extended-page .contentFullPerson p.title {border-top: 2px solid #000 ;}
+.person-extended-page div#twoColSide div#events div#left div.contentFullPerson.disclosure div.catalogueSection p.title a.backToTop{display:none;}
+div.disclosure div.catalogueSection {font-size: 1.125rem;}
+.person-extended-page div#twoColSide div#events div#left p.btnlink a:hover, .person-extended-page div#twoColSide div#events div#left p.btnlink a:focus {background: rgba(0, 0, 0, 0) linear-gradient(to bottom, #006ed2, #006ed2) repeat scroll 0 0;  color: #ffffff;text-decoration: none; font-size: 1.125rem;}
+.person-extended-page div#twoColSide div#events div#left p{font-size: 1.125rem;	}
+.person-extended-page div#twoColSide div#events div#left div.eventsItem div.eventsDesc{  margin-left: 300px;}
+.person-extended-page div#twoColSide div#events div#left div.eventsItem{background:#f2f2f2; margin-bottom:10px;	}
+
+@media only screen and (max-width: 767px)  {
+.person-extended-page div#twoColSide div#events div#left div.eventsItem div.eventsDesc{  margin-left: 170px;}	
+}
+/* LVC PERSON EXTENDED LIST END*/
+.people-list-page div#twoColSide div#events div#left div#eventsListing div.eventsItem div.imageOptions, .people-list-page div#twoColSide div#events div#left div#eventsListing div.eventsItem.preferred div.imageOptions {width: 420px!important;}
+.extended div#twoColSide div#events div#left div.catalogueSearchResult{font-size: 1.125rem;}
+.extended div#twoColSide div#events div#left div#LVCsearch div#searchForExtendedWrapper div#searchForExtended form {background-color: #f2f2f2!important; border-bottom: 20px solid #ffffff;}
+p.eventHeading {font-size: 1.125rem;}
+.extended div#twoColSide div#events div#left div.catalogueSearchResult div.eventsDesc p {font-size: 1.125rem;}
+.extended div#twoColSide div#events div#left div.catalogueSearchResult p{font-size: 1.125rem;}
+.extended div#twoColSide div#events div#left div.catalogueSearchResult{ background-color: #f2f2f2!important; margin: 20px 0!important; padding: 20px!important;}
+.extended div#twoColSide div#events div#left div.catalogueSearchResult div b{font-size: 1.125rem;}
+.extended div#twoColSide div#events div#left p{font-size: 1.125rem;}
+.extended div#twoColSide div#events div#left p{font-size: 1.125rem;}
+
+/*search box*/
+.extended div#twoColSide div#events div#left div#LVCsearch div#searchForExtendedWrapper div#searchForExtended form input.text{font-size: 1.125rem; background: #fff none repeat scroll 0 0; border-radius: 0px!important; padding-top: 0px !important; height: 40px; width:40%; padding-left:10px;}
+.extended div#twoColSide div#events div#left div#LVCsearch div#searchForExtendedWrapper div#searchForExtended form input.submit.btnlinkfile{ background: transparent; font-size: 1.125rem; width:20%; Margin-top: 0px;	top: 0px!important; height: 40px; margin-bottom: 3px;	}
+.extended div#twoColSide div#events div#left div#LVCsearch div#searchForExtendedWrapper div#searchForExtended form input.submit.btnlinkfile:hover, .extended div#twoColSide div#events div#left div#LVCsearch div#searchForExtendedWrapper div#searchForExtended form input.submit.btnlinkfile:focus { background: rgba(0, 0, 0, 0) linear-gradient(to bottom, #006ed2, #006ed2) repeat scroll 0 0; border: 2px solid #006ed2; color: #ffffff;text-decoration: none; font-size: 1.125rem; }
+.extended div#twoColSide div#events div#left div#LVCsearch div#searchForExtendedWrapper div#searchForExtended form {  background-color: #e6e7e7; padding: 15px 2px 10px 10px;}
+.extended div#twoColSide div#events div#left div#LVCsearch div#searchForExtendedWrapper p a#helpTextLink.btnlink {font-size: 1.125rem; width: 5em !important; margin-left: 20px; margin-bottom: 20px;}
+a#helpTextLink.btnlink:hover, a#helpTextLink.btnlink:focus { background: rgba(0, 0, 0, 0) linear-gradient(to bottom, #006ed2, #006ed2) repeat scroll 0 0; border: 2px solid #006ed2; color: #ffffff;text-decoration: none; font-size: 1.125rem;}
+.extended div#twoColSide div#events div#left div#LVCsearch div#searchForExtendedWrapper div#searchFor form label#searchInLabel{margin-top: 12px;}
+
+/*BBC FILMS*/
+@media only screen 
+and (min-device-width : 1px) 
+and (max-device-width : 667px) 
+and (orientation : portrait) { 
+.person-page div#twoColSide div#events div#left div#eventsListing div.contentFullPerson.disclosure div#mediaSection.catalogueSectionPerson iframe.mediaEmbed {width: 100%!important;}
+ }
+/*END BBC FILMS*/
+
+/* SHOP BASKET PAGE */
+div#twoColSide div.shoppage div#left {width: 100% !important;}
+div.shoppage div#left div.contentPage form#editBasketForm table.editBasket {width: 100% !important;}
+div.shoppage div#left div.contentPage form#editBasketForm table.contentBottomBorder {width: 100% !important;}
+div.shoppage div#left div.contentPage form#editBasketForm table.editBasket tbody tr td.donation-col select#basket_donationItemID, div.shoppage div#left div.contentPage form#editBasketForm table.editBasket tbody tr td select#basketPostArea {-webkit-appearance: none!important; -moz-appearance: none !important; appearance: none; background-image: url("/assets/images/layout/down-arrowTnew.png"); background-position: 95% center; background-repeat: no-repeat; cursor: pointer; outline: medium none; width: 100%; background-color: rgba(0, 0, 0, 0); border: 2px solid #242424; box-sizing: border-box; color: #000000; font-size: 1.125rem; line-height: 1.8em; padding-left: 5px;}
+div.shoppage div#left div#eventsListing form#deliveryDetailsForm div select#billCountry {-webkit-appearance: none!important; -moz-appearance: none !important; appearance: none; background-image: url("/assets/images/layout/down-arrowTnew.png"); background-position: 95% center; background-repeat: no-repeat; cursor: pointer; outline: medium none; background-color: rgba(0, 0, 0, 0); border: 2px solid #242424; box-sizing: border-box; color: #000000; font-size: 1.125rem; line-height: 1.8em; padding-left: 5px;}
+div.shoppage div#left div#eventsListing form#deliveryDetailsForm div#setCountry a.helpTextLink {font-size: 1.125rem; font-weight:bold;}
+div.shoppage #editBasketForm table.editBasket tbody tr td input, div.shoppage div#left div.contentPage form#editBasketForm table.editBasket tbody tr td input#basketMembershipNumber, div.shoppage div#left div.contentPage form#editBasketForm table.editBasket tbody tr td.donation-col label#basket-donation-amount input#basket_donationAmount, div.shoppage div#left div#eventsListing form#deliveryDetailsForm div input{outline: medium none; background-color: rgba(0, 0, 0, 0); border: 2px solid #242424; box-sizing: border-box; color: #000000; font-size: 1.125rem; line-height: 1.8em; padding-left: 5px;}
+div.shoppage div#left div#eventsListing form#deliveryDetailsForm div#setCountry span#delCountry {font-size: 1.125rem;}
+div.shoppage div#left div.contentPage form#editBasketForm table.editBasket tbody tr td.donation-col label#basket-donation-amount input#basket_donationAmount {margin-left: 10px;}
+div.shoppage div#left div.contentPage form#editBasketForm div.membership-options-section {height:120px;}
+div.shoppage div#left div.contentPage form#editBasketForm table.editBasket tbody tr td#basketQuantity {width:20px!important;}
+div#events div.shoppage div#left div.contentPage form#editBasketForm table.editBasket tbody tr td.donation-col label#basket-donation-amount {margin-top: 20px;}
+div.shoppage div#left div.contentPage form#editBasketForm table.editBasket tbody tr td.donation-col input.gift-aid-checkbox {top: 0px!important;}
+div.shoppage div#left div.contentPage form#editBasketForm table.editBasket tbody tr td.donation-col a#helpTextLink999.helpTextLink {display: inline-block!important;}
+div.shoppage div#left div.contentPage form#editBasketForm table.editBasket tbody tr td.donation-col img {margin-bottom: -20px!important;}
+/* SHOP BASKET PAGE */
+div.blog-section div.quip div.blog-comment p.blog-comment-text {overflow-wrap: break-word;}
+/* SHOPPING BASKET MOBILE */
+@media (max-width: 768px) {
+#headerBasket {height: 60px; margin: 10px 0; padding-left: 20px;}
+/* SHOPPING BASKET MOBILE END*/
+}
+
+/*FEATURES PAGE WIDTH*/
+
+/*.Standard-Content-full-width-2col div#wrapper div#main div#featureSections h1.bannertitle.desktop-only {
+    background: #000 none repeat scroll 0 0!important;
+}*/
+
+/*.Features-Page div#featureContainer #featureSections, #featureSections * {
+    background: #f2f2f2 none repeat scroll 0 0!important;
+}*/
+
+.Features-Page div#left div#featureSections{margin-top: 15px;}
+
+/*.Features-Page-Theme div#featureContainer #featureSections, #featureSections * {
+    background: #f2f2f2 none repeat scroll 0 0!important;
+}*/
+
+/*.Exhibitions_Events div#wrapper div#main div#featureSections h1.bannertitle.desktop-only{
+    background: #000 none repeat scroll 0 0!important;
+}*/
+
+.Features-Page-Theme div#left div#featureSections{ margin-top: 15px;}
+
+/*Features menu*/
+@media (min-width: 770px) { 
+.Features-Page div#wrapper div#main div#mainContent div#twoColSide div#left div.contentPage div.contentOneColumn{
+margin-right: -20px!important;}
+.Features-Page div#left div#featureSections{width: 100%; margin-left: 20px;}
+.Features-Page div#left div#featureSections div#featureContainer{ background: rgba(0, 0, 0, 0) none repeat scroll 0 0!important; border-left: 0px!important; float: left; margin-bottom: 5px; width: 100%; display:flex;}
+.Features-Page div#left div#featureSections div#featureContainer div.featureSection{ width: 100%;	}
+div#featureSections {border-bottom: none!important;}
+.Features-Page-Theme div#left div#featureSections{width: 100%; margin-left: 20px;}
+.Features-Page-Theme div#left div#featureSections div#featureContainer{ background: rgba(0, 0, 0, 0) none repeat scroll 0 0!important; border-left: 0px!important; float: left; margin-bottom: 5px; width: 100%; display:flex;}
+.Features-Page-Theme div#left div#featureSections div#featureContainer div.featureSection{ width: 100%;}
+} 
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape)
+and (-webkit-min-device-pixel-ratio: 1)  { 
+.Features-Page-Theme div#left div.contentPage div.contentOneColumn div#portraitPanelPage0.portraitPanelPage .portraitPanelRow div.portrait-panel.mediumPortrait { width: 30%; padding-left: 15px;}
+}
+
+/*@media only screen and (min-device-width : 1px) and (max-device-width : 480px) {
+.Features-Page div#left div#featureSections div#featureContainer{display:block!important;}
+.Features-Page-Theme div#left div#featureSections div#featureContainer{display:block!important;}
+}*/
+
+@media (max-width: 768px) {
+/* Popup container - can be anything you want */
+.popup {margin: 0 auto; display: block; cursor: pointer; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; font-size: 20px; height: 50px; text-align: center; padding-top: 10px; border: 1px solid black;}
+
+/* The actual popup */
+.Features-Page div#left div#featureSections div.popup div#featureContainer , .Features-Page-Theme div#left div#featureSections div.popup div#featureContainer{display:none!important;}
+
+/* Toggle this class - hide and show the popup */
+.Features-Page div#left div#featureSections div.popup div#featureContainer.show, .Features-Page-Theme div#left div#featureSections div.popup div#featureContainer.show {display:block!important; /* background: rgba(0, 0, 0, 0.7);*/ background: #fff; margin-top: 30px;}
+div.featureSection {background-color: #fff;}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {from {opacity: 0;} to {opacity: 1;}}
+@keyframes fadeIn {from {opacity: 0;} to {opacity:1 ;}}
+}
+
+.Features-Page div#left div#featureSections div#featureContainer div.featureSection ul li{font-size: 1.125rem; padding-bottom:10px;}
+.Features-Page-Theme div#left div#featureSections div#featureContainer div.featureSection ul li{font-size: 1.125rem;	}
+div#featureContainer div.featureSection h2{font-size: 1.5rem!important;}
+
+/*Banner Image*/
+.Features-Page div#left div#featureSections h1.imgReplacement img{ width: 100%;}
+.Features-Page-Theme div#left div#featureSections h1.imgReplacement img{ width: 100%;}
+.Features-Page-2col div#left div#featureSections h1.imgReplacement img{ width: 100%;}
+/*End Banner Image*/
+
+
+/*Image Theme List*/
+.Features-Page-Theme div#left div.contentPage div.contentOneColumn div#portraitPanelPage0.portraitPanelPage .portraitPanelRow div.portrait-panel.mediumPortrait { /*width: 50%;*/ margin-bottom:30px;	}
+/*
+.Features-Page-Theme div#wrapper div#main div#mainContent div#twoColSide div#left div.contentPage div.contentOneColumn .portraitPanelPage .portraitPanelRow{
+    float: none!important;
+}
+*/
+.Features-Page-Theme div#left div .portraitPanelRow div.portrait-panel.mediumPortrait.portraitLeft div.image, .portraitPanelRow div.portrait-panel.mediumPortrait.portraitCenter div.image, .portraitPanelRow div.portrait-panel.mediumPortrait.portraitRight div.image { margin: 0 auto;}
+
+@media only screen
+and (min-width : 920px) {
+.Features-Page-Theme div#left div.smallPortrait p, div.mediumPortrait p, div.imgWrapper p {margin-left: 5%; margin-right: 5%;}
+.Features-Page div#left div.contentPage div.contentOneColumn div.mediumPortrait.portraitRight p{margin-left: 0%; margin-right: 0%;}
+.Features-Page div#left div.contentPage div.contentOneColumn div.mediumPortrait.portraitLeft p{margin-left: 0%; margin-right: 0%;}
+.Features-Page div#left div.contentPage div.contentOneColumn div.portrait-panel.mediumPortrait.portraitRight p{margin-left: 0%; margin-right: 0%;}
+.Features-Page div#left div.contentPage div.contentOneColumn div.portrait-panel.mediumPortrait.portraitLeft p{margin-left: 0%; margin-right: 0%;}
+.Standard-Content-full-width div#left div.contentPage div.contentOneColumn div.mediumPortrait.portraitRight p{margin-left: 0%; margin-right: 0%;}
+.Standard-Content-full-width div#left div.contentPage div.contentOneColumn div.mediumPortrait.portraitLeft p{margin-left: 0%; margin-right: 0%;}
+.Standard-Content-full-width-2col div#left div.contentPage div.contentColumn div.floatLeft div.mediumPortrait p{margin-left: 0%; margin-right: 0%;}
+.Standard-Content-full-width-2col div#left div.contentPage div.contentColumn div.floatRight div.mediumPortrait p{margin-left: 0%; margin-right: 0%;}
+.Standard-Content-full-width-2col div#wrapper div#main div#mainContent div#twoColSide div#left div.contentPage div.contentColumn div.mediumPortrait.portraitRight p{margin-left: 0%; margin-right: 0%;}
+.Standard-Content-full-width-2col div#wrapper div#main div#mainContent div#twoColSide div#left div.contentPage div.contentColumn div.mediumPortrait.portraitLeft p{margin-left: 0%; margin-right: 0%;}
+.Exhibitions_Events #left div.contentPage div.contentOneColumn div#eventDetails div.clearLeft div.mediumPortrait.portraitRight p{margin-left: 0%; margin-right: 0%;}
+.Exhibitions_Events #left div.contentPage div.contentOneColumn div#eventDetails div.clearLeft div.mediumPortrait.portraitLeft p{margin-left: 0%; margin-right: 0%;}
+}
+/*End Image Theme List*/
+
+/*Overlay li List*/
+.Features-Page-Theme div#left div.contentPage div.contentOneColumn .portraitPanelPage .portraitPanelRow div.portrait-panel.mediumPortrait div.image div.overlay ul.links li{ margin: 10px 0;}
+/*End Overlay li List*/
+
+.Features-Page div#wrapper div#main div#mainContent div#twoColSide div#left div.contentPage div.contentOneColumn{ float: left!important;}
+/*END FEATURES PAGE WIDTH*/
+
+/*SLIDER ARROW*/
+@media only screen
+and (min-width : 768px) {
+div#main .slick-wrapper ul.slick-dots { background-color: #000 !important;}
+div#main .slick-wrapper ul.slick-dots { width: 150px;}
+.slick-wrapper .slick-prev { right: 120px !important;}
+.slick-prev::before, .slick-next::before { color: #fff !important; opacity: 0.9 !important;}
+.slick-dots li {color: #fff;}
+}
+/*END SLIDER ARROW*/
+
+form p input, form p textarea {font-size: 1.125rem;}
+
+/*FEATURE PAGE OUTRO*/
+.outro-text {margin-top: 2rem;}
+/*FEATURE PAGE OUTRO END*/
+
+/************* OBJECT WALL ****************/
+div#object-wall-wrapper div#object-filter-bar span#current-tag {background-color: #f2f2f2; border-radius: 0; float: left; font-weight: bold; padding: 7px;}
+div#object-wall-wrapper div#object-filter-bar span#current-tag-label {display: none;}
+div#object-filter-bar a {float: right; margin-right: 10px;}
+div#object-wall-wrapper div.object-tags ul {margin-left: 0;}
+div#object-wall-wrapper div.object-tags li {border-radius: 0;}
+div.object-tags { width: 100%;}
+div#object-wall-wrapper div#object-filter-bar {background-color: #f2f2f2; height: 45px;}
+#object-wall-wrapper { background-color: transparent; padding: 0px 6px; width:100%;}
+#object-wall-wrapper div { position:relative;}
+div#object-wall { width:100%; display:inline-block;}
+div#object-wall * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;}
+div#object-wall .grid-sizer { width: 25%;}
+div#object-wall div.object { float:left; width:25%; padding:4px;}
+
+/*no masonry*/
+div#object-wall div.object,
+.js-enabled div#object-wall.nomasonry div.object,
+.js-enabled div#object-wall.nomasonry div.object.span2col,
+.js-enabled div#object-wall.nomasonry div.object.span3col { width:25%; height:500px; overflow:hidden;}
+div#object-wall div.object .object-thumb-wrapper,
+.js-enabled div#object-wall.nomasonry div.object .object-thumb-wrapper { width:100%; height:0; padding-bottom:100%; overflow:hidden; margin: 0px auto 8px auto;}
+div#object-wall div.object .object-thumb,
+.js-enabled div#object-wall.nomasonry div.object .object-thumb { width:auto; max-width:100%; max-height:188px; display:block; margin:0px auto;}
+div#object-wall div.object .object-overlay,
+div#object-wall.nomasonry div.object .object-overlay{ display:none; }
+div#object-wall div.object a:hover .object-icon-overlay { background-color: #FFFFFF; opacity:.5; filter: alpha(opacity=50); /*i.e 8 and below*/}
+
+/* end no-masonry fallback */
+
+/* with masonry */
+div#object-wall .object .object-inner { border-radius: 0px; box-shadow: 0px 0px 9px #B4B4B4; height:100%; padding:8px; background-color:#f2f2f2;}
+.js-enabled div#object-wall div.object { height:auto; padding:6px; margin-bottom:4px;}
+.js-enabled div#object-wall div.object .object-thumb-wrapper { width:100%; height:auto; margin-bottom:8px; padding-bottom:0px;}
+.js-enabled div#object-wall div.object .object-thumb { width:100%; height:auto; max-width:none; max-height:none; display:block; margin:0px auto;}
+.js-enabled div#object-wall div.object .object-overlay { display:block; position:absolute; top:0px; left:0px; width:100%; height:100%; border-radius:8px; cursor:pointer;}
+
+@media all and (max-width: 720px) {
+.js-enabled div#object-wall div.object .object-overlay {display:none;}
+body.object-page {width:400px; padding-top:20px;}
+}
+
+.js-enabled div#object-wall div.object:hover .object-overlay {background-color: #FFFFFF; opacity:.5; filter: alpha(opacity=50); /*i.e 8 and below*/}
+.js-enabled div#object-wall div.object a:hover .object-icon-overlay {background-color: transparent;}
+.js-enabled div#object-wall div.object.span2col {width:50%;}
+.js-enabled div#object-wall div.object.span3col {width:75%;}
+
+/* end with masonry */
+div#object-wall div.object .object-icon-overlay { width:100%; height:100%; position:absolute; top:0px; background-position: 94% 94%; background-repeat: no-repeat;}
+div#object-wall div.object .with-zoom {background-image: url(/assets/images/layout/zoom_overlay.png);}
+div#object-wall div.object .with-video {background-image: url(/assets/images/layout/play_overlay.png);}
+
+.object-page {background-color: #FFF;}
+.object-page * {font-size:0.8rem;}
+.object-page div.object .object-image,
+.object-page div.object .video-wrapper,
+.object-page div.object .zoom-wrapper { max-width:90%; max-height:420px; margin: 0px auto 10px auto; display:block;}
+.object-page div.object h1,
+.object-page div.object .object-text {width:90%; margin: 0px auto 0px auto;}
+
+div#object-filter-bar { /*border-top:7px solid #f0f0f0;*/ height: 32px; background-color: #F7F7F7; padding-top: 10px;margin:0px -6px 0px -6px;}
+a#object-disclosure {cursor:pointer;}
+div#object-filter-bar a { padding-left: 15px; padding-right: 30px; padding-top: 5px; padding-bottom: 5px; font-size: 1.125rem; color: #006ed2;}
+div#object-filter-bar .tag-disclosure-closed {background: url('../images/layout/dropDownArrow.png') no-repeat right center;}
+div#object-filter-bar .tag-disclosure-open {background: url('../images/layout/dropDownArrow_up.png') no-repeat right center;}
+div#object-filter-bar span#current-tag-label { font-size: 1.125rem; margin-left: 20px; font-weight: bold;}
+div#object-filter-bar span#current-tag { margin-left: 10px; padding: 4px 8px 4px 8px; background-color: #D5D5D5; border-radius: 15px;}
+
+div.object-tags { margin-bottom: 45px; padding: 0px 0px 1px 0px; background-color: #ededed; overflow: hidden;}
+div.object-tags ul {list-style-type: none; padding: 15px 15px 0px 15px; margin: 0px; float: left;width: 94%;}
+div.object-tags li {background-color: #006ed2; margin-right: 20px; padding: 4px 10px 4px 10px; float: left; border-radius: 15px; margin-bottom: 14px; display: block;}
+div.object-tags li:hover{ background-color: #D5D5D5;}
+div.object-tags li:hover a {color: #666666;}
+div.object-tags li.selected-tag {background-color: #D5D5D5;}
+div.object-tags li.selected-tag:hover {background-color: #DCDCDC;}
+div.object-tags li.selected-tag a {color: #666666;	}
+div.object-tags li a {color: #ffffff; text-decoration: none;}
+
+html.js-enabled.flexbox.flexboxlegacy.no-flexboxtweener body.Standard-Content-full-width div#wrapper div#main div#mainContent div#oneColSide div#left div.contentPage div.contentOneColumn div#object-wall-wrapper div#object-wall div.object.span1col div.object-inner h2 {font-size: 1em!important;}
+
+/*************END OBJECT WALL ****************/
+
+/* removes extra credit line on sliders that are only used for landing pages */
+.credit-line-slider { display: none !important;}
+/* removed credit line end */
+
+/* Footer */
+
+body.Dynamic-Content-full-width div#wrapper div#main div#footer div#footer-inner div.footer-col h3 {font-size: 1.2em!important; font-weight: bold!important; line-height: 1.2em!important; margin-bottom: 0.7em!important; margin-top: 0.7em!important;}
+
+/* Footer end*/
+
+/*Events ticket box*/
+@media (min-width: 768px) {
+.contentPage div.contentOneColumn div#eventDetails div.imageOptions{
+border: 1px solid;
+}
+}
+/*end Events ticket box*/
+
+.center-object {
+display: table; margin: 0 auto;
+}
+
+
+.iframe-container {
+    position: relative;
+    overflow: hidden;
+    padding-top: 130%;
+}
+
+.iframe-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+ 	width: 100%;
+    height: 100%;
+    border: 0;
+}
